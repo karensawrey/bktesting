@@ -1,0 +1,8 @@
+steps:
+  - command: echo "tic"
+  - command: echo "tac"
+    key: tac
+  - wait:
+    depends_on: tac
+  - command: echo "toe"
+  
