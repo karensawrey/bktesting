@@ -1,0 +1,4 @@
+- group: "Setup"
+  steps:
+    - command: "docker build"
+  
