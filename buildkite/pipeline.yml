@@ -1,5 +1,6 @@
 steps:
-  - group: "Setup"
+  - group: ~
+    label: "Setup"
     steps:
       - command: echo "here"
       
